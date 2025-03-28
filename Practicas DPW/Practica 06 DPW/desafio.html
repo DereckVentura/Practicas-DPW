@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas e Iframes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            text-align: center;
+            color: #333;
+        }
+        
+        h1 {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+        h2 {
+            color: #444;
+            margin-top: 20px;
+        }
+        
+        ol,
+        ul {
+            display: inline-block;
+            text-align: left;
+            font-size: 18px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        ol li,
+        ul li {
+            padding: 8px;
+            transition: background 0.3s ease;
+        }
+        
+        ol li:hover,
+        ul li:hover {
+            background: rgba(0, 0, 0, 0.05);
+            border-radius: 5px;
+        }
+        
+        iframe {
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Listas de Películas y Géneros Musicales</h1>
+
+    <h2>Top 5 Películas Favoritas</h2>
+    <ol>
+        <li>Avengers Endgame</li>
+        <li>Rápido y Furioso</li>
+        <li>Chucky 2</li>
+        <li>Megalodon 2</li>
+        <li>Fractura</li>
+    </ol>
+
+    <h2>Géneros Musicales que Escucho</h2>
+    <ul>
+        <li>Salsa</li>
+        <li>Rock</li>
+        <li>Románticas</li>
+        <li>Reggaetón</li>
+        <li>Electrónica</li>
+    </ul>
+
+    <h2>Video de YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wVqjP2GfZaU" frameborder="0" allowfullscreen></iframe>
+
+</body>
+
+</html>
